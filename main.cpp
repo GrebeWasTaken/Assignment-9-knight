@@ -43,5 +43,5 @@ int main()
   cout << "Enter number of moves: ";
   cin >> N;
 
-  int counts[8]
+  int counts[8][8];
 }
