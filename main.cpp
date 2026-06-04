@@ -9,7 +9,9 @@ bool onBoard(int row, int col)
 }
 
 void printPath(int pathRows[], int pathCols[], int pathLength){
-  for (int i = 0; i < pathLength; i++)
+  for (int i = 0; i < pathLength; i++){
+    cout << "(" 
+  }
 }
 
 void findKnightPath(int row, int col, int movesLeft, int counts[8][8], int pathRows[], int pathCols[], int pathLength)
