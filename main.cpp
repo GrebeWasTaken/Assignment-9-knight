@@ -8,7 +8,9 @@ bool onBoard(int row, int col)
   return row >= 0 && row < 8 && col >= 0 && col < 8;
 }
 
-void findKnightPath(int row, int col, int movesLeft)
+void findKnightPath(int row, int col, int movesLeft){
+  if (!o)
+}
 
 int main()
 {
