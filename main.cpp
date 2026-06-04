@@ -44,4 +44,5 @@ int main()
   cin >> N;
 
   int counts[8][8];
+  
 }
