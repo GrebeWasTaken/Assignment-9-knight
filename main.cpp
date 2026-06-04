@@ -8,17 +8,19 @@ bool onBoard(int row, int col)
   return row >= 0 && row < 8 && col >= 0 && col < 8;
 }
 
-void printPath(int pathRows[], int pathCols[], int pathLength){
-  for (int i = 0; i < pathLength; i++){
+void printPath(int pathRows[], int pathCols[], int pathLength)
+{
+  for (int i = 0; i < pathLength; i++) {
     cout << "(" << pathRows[i] << ", " << pathCols[i] << ")";
 
-    if (i < pathLength -1){
+    if (i < pathLength - 1) {
       cout << " -> ";
     }
   }
 }
 
-void findKnightPath(int row, int col, int movesLeft, int counts[8][8], int pathRows[], int pathCols[], int pathLength)
+void findKnightPath(int row, int col, int movesLeft, int counts[8][8],
+                    int pathRows[], int pathCols[], int pathLength)
 {
   if (!onBoard(row, col)) {
     return;
@@ -43,7 +45,8 @@ void findKnightPath(int row, int col, int movesLeft, int counts[8][8], int pathR
   int colMoves[8] = {-1, 1, -2, 2, -2, 2, -1, 1};
 
   for (int i = 0; i < 8; i++) {
-    findKnightPath(row + rowMoves[i], col + colMoves[i], movesLeft - 1, counts, pathRows, pathCols, pathLength);
+    findKnightPath(row + rowMoves[i], col + colMoves[i], movesLeft - 1, counts,
+                   pathRows, pathCols, pathLength);
   }
 }
 
@@ -97,5 +100,8 @@ int main()
 
   printBoard(counts);
 
-  delete[] path
+  delete[] pathRows;
+  delete[] pathCols;
+
+  return 0;
 }
