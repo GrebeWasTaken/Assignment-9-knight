@@ -30,7 +30,7 @@ void findKnightPath(int row, int col, int movesLeft, int counts[8][8])
   }
 }
 
-
+void printBoard(int counts)
 
 int main()
 {
