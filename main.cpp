@@ -46,6 +46,6 @@ int main()
   int counts[8][8];
 
   for (int r = 0; r < 8; r++){
-    for ()
+    for (int c = 0; c < 8)
   }
 }
