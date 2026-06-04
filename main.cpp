@@ -17,7 +17,7 @@ void findKnightPath(int row, int col, int movesLeft, int counts[8][8]){
     cout << "(" << row << ", " << col << ")" << endl;
 
     counts[row][col]++;
-    
+
     return;
   }
 
@@ -28,7 +28,8 @@ void findKnightPath(int row, int col, int movesLeft, int counts[8][8]){
     findKnightPath(
       row + rowMoves[i],
       col + colMoves[i],
-      movesLeft - 1
+      movesLeft - 1,
+      counts
     );
   }
 }
