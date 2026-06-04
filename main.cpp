@@ -24,7 +24,8 @@ void findKnightPath(int row, int col, int movesLeft){
 
   for (int i = 0; i < 8; i++){
     findKnightPath(
-      row + rowMoves[i]
+      row + rowMoves[i],
+      col + col
     )
   }
 }
