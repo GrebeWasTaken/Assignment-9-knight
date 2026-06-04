@@ -4,7 +4,7 @@ using namespace std;
 
 bool onBoard(int row, int col)
 {
-  return row >= && row < 
+  return row >= && row < 8 && 
 }
 
 int main()
