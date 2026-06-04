@@ -36,7 +36,9 @@ void printBoard(int counts[8][8]){
     cout << setw(5) << col;
   }
 
-  for (int row = 0; row < 8; row)
+  for (int row = 0; row < 8; row++){
+    
+  }
 }
 
 int main()
