@@ -39,7 +39,7 @@ void printBoard(int counts[8][8]){
   for (int row = 0; row < 8; row++){
     cout << row << "    ";
 
-    
+    for (int col = 0)
   }
 }
 
