@@ -7,6 +7,8 @@ bool onBoard(int row, int col)
   return row >= && row < 8 && col >= 0 && col < 8;
 }
 
+
+
 int main()
 {
   int row, col, N;
