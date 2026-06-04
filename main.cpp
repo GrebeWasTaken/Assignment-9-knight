@@ -97,5 +97,5 @@ int main()
 
   printBoard(counts);
 
-  
+  delete[] path
 }
