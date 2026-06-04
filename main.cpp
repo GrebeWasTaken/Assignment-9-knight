@@ -40,6 +40,5 @@ int main()
   cin >> col;
   cout << "Enter number of moves: ";
   cin >> N;
-
-  cout << findKnightPath << endl;
+;
 }
