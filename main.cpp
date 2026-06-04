@@ -1,5 +1,6 @@
 #include <iostream>
-#includ 
+#include <iomanip>
+
 using namespace std;
 
 bool onBoard(int row, int col)
