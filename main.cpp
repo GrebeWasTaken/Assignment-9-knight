@@ -13,7 +13,7 @@ void printPath(int pathRows[], int pathCols[], int pathLength){
     cout << "(" << pathRows[i] << ", " << pathCols[i] << ")";
 
     if (i < pathLength -1){
-      cout << " -> "
+      cout << " -> ";
     }
   }
 }
