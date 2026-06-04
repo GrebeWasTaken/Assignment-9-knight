@@ -44,5 +44,6 @@ int main()
   cin >> N;
 
   int counts[8][8];
-  
+
+  for (int r = 0; r < 8)
 }
