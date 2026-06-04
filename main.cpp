@@ -40,10 +40,10 @@ void printBoard(int counts[8][8]){
     cout << row << "    ";
 
     for (int col = 0; col < 8; col++){
-      cout << set(w) << counts[row][col];
+      cout << setw << counts[row][col];
     }
 
-    cout << 
+    cout << endl;
   }
 }
 
