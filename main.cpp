@@ -93,7 +93,7 @@ int main()
   cout << endl;
   cout << "Paths:" << endl;
 
-  findKnightPath(row, col, N, counts);
+  findKnightPath(row, col, N, counts,);
 
   printBoard(counts);
 }
