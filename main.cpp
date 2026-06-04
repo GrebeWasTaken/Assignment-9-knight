@@ -70,7 +70,7 @@ int main()
     }
   }
 
-  int
+  int* 
 
   findKnightPath(row, col, N, counts);
 
