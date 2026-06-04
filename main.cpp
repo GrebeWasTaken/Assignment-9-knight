@@ -31,6 +31,8 @@ void findKnightPath(int row, int col, int movesLeft, int counts[8][8])
 }
 
 void printBoard(int counts[8][8]){
+   cout << endl
+
   cout << "   ";
   for (int col = 0; col < 8; col++){
     cout << setw(5) << col;
