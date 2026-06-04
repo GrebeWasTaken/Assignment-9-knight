@@ -1,5 +1,5 @@
-#include <iostream>
 #include <iomanip>
+#include <iostream>
 
 using namespace std;
 
@@ -8,12 +8,13 @@ bool onBoard(int row, int col)
   return row >= 0 && row < 8 && col >= 0 && col < 8;
 }
 
-void findKnightPath(int row, int col, int movesLeft, int counts[8][8]){
-  if (!onBoard(row, col)){
+void findKnightPath(int row, int col, int movesLeft, int counts[8][8])
+{
+  if (!onBoard(row, col)) {
     return;
   }
 
-  if (movesLeft == 0){
+  if (movesLeft == 0) {
     cout << "(" << row << ", " << col << ")" << endl;
 
     counts[row][col]++;
@@ -24,17 +25,10 @@ void findKnightPath(int row, int col, int movesLeft, int counts[8][8]){
   int rowMoves[8] = {-2, -2, -1, -1, 1, 1, 2, 2};
   int colMoves[8] = {-1, 1, -2, 2, -2, 2, -1, 1};
 
-  for (int i = 0; i < 8; i++){
-    findKnightPath(
-      row + rowMoves[i],
-      col + colMoves[i],
-      movesLeft - 1,
-      counts
-    );
+  for (int i = 0; i < 8; i++) {
+    findKnightPath(row + rowMoves[i], col + colMoves[i], movesLeft - 1, counts);
   }
 }
-
-
 
 int main()
 {
@@ -48,13 +42,11 @@ int main()
 
   int counts[8][8];
 
-  for (int r = 0; r < 8; r++){
-    for (int c = 0; c < 8; c++){
+  for (int r = 0; r < 8; r++) {
+    for (int c = 0; c < 8; c++) {
       counts[r][c] = 0;
     }
   }
 
-  findKnightPath(row, col, N, counts, 0);
-
-
+  findKnightPath(row, col, N, counts);
 }
