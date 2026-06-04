@@ -74,7 +74,7 @@ int main()
   int* pathCols = new int[N + 1];
 
   cout << endl;
-  cout << "Paths"
+  cout << "Paths:" << endl;
 
   findKnightPath(row, col, N, counts);
 
