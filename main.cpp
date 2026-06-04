@@ -4,7 +4,7 @@ using namespace std;
 
 bool onBoard(int row, int col)
 {
-  
+  return 
 }
 
 int main()
