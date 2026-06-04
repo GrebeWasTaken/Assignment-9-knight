@@ -33,7 +33,7 @@ void findKnightPath(int row, int col, int movesLeft, int counts[8][8], int pathR
   int colMoves[8] = {-1, 1, -2, 2, -2, 2, -1, 1};
 
   for (int i = 0; i < 8; i++) {
-    findKnightPath(row + rowMoves[i], col + colMoves[i], movesLeft - 1, counts);
+    findKnightPath(row + rowMoves[i], col + colMoves[i], movesLeft - 1, counts, );
   }
 }
 
