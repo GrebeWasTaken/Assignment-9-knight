@@ -13,7 +13,9 @@ void findKnightPath(int row, int col, int movesLeft){
     return;
   }
 
-  
+  if (movesLeft == 0){
+    
+  }
 }
 
 int main()
