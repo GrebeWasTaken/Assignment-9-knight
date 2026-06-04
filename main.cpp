@@ -8,7 +8,9 @@ bool onBoard(int row, int col)
   return row >= 0 && row < 8 && col >= 0 && col < 8;
 }
 
-void printPath(int pathRows[], int pathCols)
+void printPath(int pathRows[], int pathCols[], int pathLength){
+  
+}
 
 void findKnightPath(int row, int col, int movesLeft, int counts[8][8], int pathRows[], int pathCols[], int pathLength)
 {
