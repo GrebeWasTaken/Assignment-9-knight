@@ -70,6 +70,8 @@ int main()
     }
   }
 
+  int
+
   findKnightPath(row, col, N, counts);
 
   printBoard(counts);
