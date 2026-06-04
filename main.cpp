@@ -40,4 +40,6 @@ int main()
   cin >> col;
   cout << "Enter number of moves: ";
   cin >> N;
+
+  
 }
