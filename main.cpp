@@ -19,7 +19,7 @@ void findKnightPath(int row, int col, int movesLeft){
     return;
   }
 
-  int rowMoves[8] = {-2, -2, -1, -1,}
+  int rowMoves[8] = {-2, -2, -1, -1, 1, 1, 2, 2}
 }
 
 int main()
