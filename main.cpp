@@ -9,7 +9,9 @@ bool onBoard(int row, int col)
 }
 
 void findKnightPath(int row, int col, int movesLeft){
-  if (!onBoard(row, col))
+  if (!onBoard(row, col)){
+    return;
+  }
 }
 
 int main()
