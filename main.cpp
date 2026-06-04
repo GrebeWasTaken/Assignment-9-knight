@@ -51,7 +51,7 @@ int main()
     }
   }
 
-  findKnightPath(row, col, N, , 0);
+  findKnightPath(row, col, N, counts, 0);
 
 
 }
