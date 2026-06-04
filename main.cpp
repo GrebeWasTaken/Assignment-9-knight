@@ -15,7 +15,9 @@ void findKnightPath(int row, int col, int movesLeft, int counts[8][8], int pathR
   }
 
   pathRows[pathLength] = row;
-  pathCols[pathLength]
+  pathCols[pathLength] = col;
+
+  pathLength++;
 
   if (movesLeft == 0) {
     cout << "(" << row << ", " << col << ")" << endl;
