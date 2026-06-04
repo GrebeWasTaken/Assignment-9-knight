@@ -22,7 +22,7 @@ void findKnightPath(int row, int col, int movesLeft, int counts[8][8], int pathR
   if (movesLeft == 0) {
     cout << "(" << row << ", " << col << ")" << endl;
 
-    printPath(pathRows, pathc)
+    printPath(pathRows, pathCols, pathLength);
 
     counts[row][col]++;
 
