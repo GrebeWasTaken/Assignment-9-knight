@@ -14,8 +14,10 @@ void findKnightPath(int row, int col, int movesLeft){
   }
 
   if (movesLeft == 0){
-    cout << "(" << row << ", " << col << ")"
+    cout << "(" << row << ", " << col << ")" << endl;
   }
+
+  return
 }
 
 int main()
