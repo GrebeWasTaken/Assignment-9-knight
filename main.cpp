@@ -71,7 +71,7 @@ int main()
   }
 
   int* pathRows = new int[N + 1];
-  int* pathCols = 
+  int* pathCols = new int
 
   findKnightPath(row, col, N, counts);
 
