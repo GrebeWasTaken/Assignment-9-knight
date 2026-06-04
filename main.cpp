@@ -50,4 +50,6 @@ int main()
       counts[r][c] = 0;
     }
   }
+
+  
 }
